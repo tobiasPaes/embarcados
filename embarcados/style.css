@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 20px;
+    height: calc(100vh - 40px);
+}
+
+.variaveis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.setpoint{
+    flex-direction: column;
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.divisor{
+    width: 99%;
+}
+
+input{
+    background-color: transparent;
+    border: black 2px solid;
+    width: 40px;
+    height: 40px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.grafico{
+    width: 600px;
+    height: 300px;
+}

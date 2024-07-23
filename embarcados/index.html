@@ -1,0 +1,39 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>pid controller</title>
+</head>
+<body>
+    <main>
+        <section class="aside">
+            <div class="variaveis setpoint">
+                <h3>Setpoint</h3>
+                <input type="number" name="setpoint" id="setpoint">
+            </div>
+            <div class="variaveis">
+                <h4>Kp</h4>
+                <input type="number" name="kp" id="kp">
+            </div>
+            <div class="variaveis">
+                <h4>Ki</h4>
+                <input type="number" name="ki" id="ki">
+            </div>
+            <div class="variaveis">
+                <h4>Kd</h4>
+                <input type="number" name="kd" id="kd">
+            </div>
+        </section>
+        <hr>
+        <section class="control">
+            <h2>PID Control</h2>
+            <hr class="divisor">
+            <div class="grafico">grafico 1</div>
+            <div class="grafico">grafico 2</div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
